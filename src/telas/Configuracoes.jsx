@@ -1,10 +1,10 @@
 import { View, StyleSheet, Text } from 'react-native'
 import { Cabecalho} from '../componentes/Cabecalho'
 
-export function Inicial(){
+export function Configuracoes(){
     return(
         <>
-        <Cabecalho titulo= "Inicial" />
+        <Cabecalho titulo= "configurações" />
         <View style={estilos.conteiner}>
             
         </View>

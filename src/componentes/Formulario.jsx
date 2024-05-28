@@ -1,6 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native"
 import { useState } from "react";
-import { UserPlus } from 'phosphor-react-native'
+import { Feather } from '@expo/vector-icons'
 
 export function Formulario({adicionar}){ 
 
@@ -43,7 +43,7 @@ export function Formulario({adicionar}){
                 onPress={() => adicionar(nome, email, telefone)}
             >
                 <Text>
-                    <UserPlus 
+                    <Feather
                         size={28} 
                         color="#a9d6e5"
                     />

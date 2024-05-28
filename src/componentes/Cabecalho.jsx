@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from "react-native"
 
-export function Cabecalho(){
+export function Cabecalho({titulo}){
     return(
         <View style={estilos.conteiner}>
-            <Text style={estilos.texto}>Contatos</Text>
+            <Text style={estilos.texto}> {titulo} </Text>
         </View>
     )
 }
